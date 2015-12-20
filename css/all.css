@@ -1658,21 +1658,17 @@ input.error .placeholder{
 	/*SECTION EDGES*/
 	.edge-wide{
 		float: none;
-		width: 240px;
 		margin: 0 auto;
-		max-width: 100%;
-		padding-bottom: 40px;
+		padding: 0 0 40px;
+		width: auto;
 	}
 	.edges-list{
 		margin: 0;
 	}
 	.edges-item{
 		display: block;
-		float: none;
-		width: 240px;
-		max-width: 100%;
-		padding-bottom: 40px;
-		margin: 0 auto;
+		width: auto;
+		padding: 0 0 40px;
 	}
 	/*SECTION EDGES end*/
 	/*SECTION SCHEME WORK*/
