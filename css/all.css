@@ -1628,7 +1628,8 @@ input.error .placeholder{
 	/*SECTION WHO end*/
 	/*SECTION BENEFITS*/
 	.benefits-item{
-		padding-bottom: 50px;
+		display: block;
+		padding: 0 15px 50px;
 		width: auto;
 	}
 	.benefits-item-text{
@@ -1659,7 +1660,7 @@ input.error .placeholder{
 	.edge-wide{
 		float: none;
 		margin: 0 auto;
-		padding: 0 0 40px;
+		padding: 0 15px 50px;
 		width: auto;
 	}
 	.edges-list{
@@ -1668,7 +1669,7 @@ input.error .placeholder{
 	.edges-item{
 		display: block;
 		width: auto;
-		padding: 0 0 40px;
+		padding: 0 15px 50px;
 	}
 	/*SECTION EDGES end*/
 	/*SECTION SCHEME WORK*/
