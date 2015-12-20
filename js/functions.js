@@ -276,19 +276,6 @@ function equalHeightInit(){
 		resize: true
 	});
 }
-//function equalHeightInit(){
-//	var bonusesList = $('.benefits-list');
-//	bonusesList.find('.benefits-item-img').each(function(){
-//		var amount = $('li', this).length;
-//		$('li', this).equalHeight({
-//			amount: amount,
-//			useParent: true,
-//			parent: bonusesList,
-//			resize: true
-//		});
-//	});
-//}
-/*equalHeight end*/
 
 /** ready/load/resize document **/
 $(document).ready(function () {
