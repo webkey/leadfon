@@ -815,6 +815,7 @@ input.error .placeholder{
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
+	width: 228px;
 	max-width: 33.3%;
 }
 .sect-profit-text{
@@ -839,7 +840,7 @@ input.error .placeholder{
 	display: inline-block;
 	vertical-align: middle;
 	padding-right: 7px;
-	max-width: 65%;
+	width: 65%;
 	position: relative;
 	margin-left: -41px;
 }
