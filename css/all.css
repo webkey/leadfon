@@ -25,6 +25,17 @@
 	font-weight: normal;
 	font-style: normal;
 }
+/* gotham-pro bold */
+@font-face{
+	font-family: 'gothampro-bold';
+	src: url('../fonts/gotham-pro/bold/gothampro-bold.eot');
+	src: url('../fonts/gotham-pro/bold/gothampro-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/gotham-pro/bold/gothampro-bold.woff') format('woff'),
+	url('../fonts/gotham-pro/bold/gothampro-bold.ttf') format('truetype'),
+	url('../fonts/gotham-pro/bold/gothampro-bold.svg#gothampro-bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 /* gotham-pro light */
 @font-face{
 	font-family: 'gothampro-light';
@@ -685,12 +696,16 @@ input.error .placeholder{
 /*tabs end*/
 
 /*SECTION INTRO*/
-.sect-person{
+.main-slider{
+	margin: 0;
+	padding: 0;
+}
+.sect-intro{
 	position: relative;
 	background: #1196bc url(../img/bg-intro.jpg) 50% 50%;
 	overflow: hidden;
 }
-.sect-person .max-wrap{
+.sect-intro .max-wrap{
 	position: relative;
 	z-index: 4;
 }
@@ -720,7 +735,9 @@ input.error .placeholder{
 }
 /*background section INTRO end*/
 .sect-intro-holder{
-	padding: 65px 0 286px;
+	/*padding: 65px 0 286px;*/
+	padding: 65px 0 0;
+	height: 604px;
 	position: relative;
 }
 .sect-intro-title{ padding: 0 0 14px; }
@@ -734,7 +751,7 @@ input.error .placeholder{
 	border-top-width: 2px;
 }
 .sect-intro-text{
-	color: #fff;
+	color: #add9e6;
 	font-size: 15px;
 	line-height: 24px;
 	text-align: center;
@@ -750,6 +767,53 @@ input.error .placeholder{
 	margin: 0 10px;
 }
 /*SECTION INTRO end*/
+
+/*SECTION INTRO2*/
+.sect-intro2{
+	position: relative;
+	background: #1d914f url(../img/bg-intro2.jpg) 50% 100%;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	overflow: hidden;
+}
+.sect-intro2 .max-wrap{
+	position: relative;
+	z-index: 4;
+}
+.sect-intro2-holder{
+	padding: 65px 0 0;
+	height: 604px;
+	position: relative;
+}
+.sect-intro2-title{ padding: 0 0 14px; }
+.sect-intro2-title h2{
+	color: #fff;
+	padding: 0 0 18px;
+}
+.sect-intro2-title h2:before{ content: none; }
+.sect-intro2-title h2:after{
+	border-color: #eed407;
+	border-top-width: 2px;
+}
+.sect-intro2-text{
+	color: #8ce7b0;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	padding: 0 0 43px;
+	width: 836px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.sect-intro2-date{
+	position: absolute;
+	left: 50%;
+	bottom: 44.4%;
+	margin-left: 106px;
+	font: 30px/34px 'gothampro-bold', Arial, Helvetica, sans-serif;
+	color: #eed407;
+}
+/*SECTION INTRO2 end*/
 
 /*SECTION DEVELOP*/
 .sect-develop{ background: #fff; }
@@ -1451,7 +1515,11 @@ input.error .placeholder{
 	/*tabs end*/
 	/*SECTION INTRO*/
 	.sect-intro-holder {
-		padding-bottom: 40%;
+		/*padding-bottom: 40%;*/
+		padding-top: 43px;
+	}
+	.sect-intro-text{
+		padding: 0 0 18px;
 	}
 	.sect-intro-bg{
 		margin-left: 0;
@@ -1465,6 +1533,12 @@ input.error .placeholder{
 		min-width: 260px;
 	}
 	/*SECTION INTRO end*/
+	/*SECTION INTRO2*/
+	.sect-intro2-holder {
+		/*padding-bottom: 70%;*/
+		padding-top: 43px;
+	}
+	/*SECTION INTRO2 end*/
 	/*SECTION BENEFITS*/
 	.benefits-list{
 		text-align: center;
@@ -1589,6 +1663,33 @@ input.error .placeholder{
 		width: auto;
 	}
 	/*SECTION INTRO end*/
+	/*SECTION INTRO2*/
+	.sect-intro2{
+		background: #1d914f url(../img/bg-intro2-mob.jpg) no-repeat 50% 100%;
+		-webkit-background-size: 100% auto;
+		background-size: 100% auto;
+	}
+	.sect-intro2-title,
+	.sect-intro2-text{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.sect-intro2-title h2{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.sect-intro2-date {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		margin-left: 0;
+		display: block;
+		font-size: 26px;
+		line-height: 30px;
+		color: #eed407;
+		text-align: center;
+	}
+	/*SECTION INTRO2 end*/
 	/*SECTION DEVELOP*/
 	.sect-develop-img{
 		display: block;

@@ -276,6 +276,23 @@ function equalHeightInit(){
 		resize: true
 	});
 }
+/*equalHeight end*/
+
+/*slick slider init*/
+function slickSliderInit(){
+	var mainSlider = $('.main-slider');
+	if(!mainSlider.length){return;}
+	mainSlider.slick({
+		fade: true,
+		speed: 500,
+		arrows: false,
+		swipe: false,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		pauseOnHover: false
+	})
+}
+/*slick slider init end*/
 
 /** ready/load/resize document **/
 $(document).ready(function () {
@@ -283,6 +300,7 @@ $(document).ready(function () {
 	mapInit();
 	dropNavigation();
 	tabInit();
+	slickSliderInit();
 });
 $(window).load(function () {
 	equalHeightInit();
