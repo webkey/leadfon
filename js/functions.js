@@ -286,10 +286,10 @@ function slickSliderInit(){
 		fade: true,
 		speed: 500,
 		arrows: false,
-		swipe: false,
-		autoplay: true,
+		//swipe: false,
+		//autoplay: true,
 		autoplaySpeed: 5000,
-		pauseOnHover: false
+		//pauseOnHover: false
 	})
 }
 /*slick slider init end*/

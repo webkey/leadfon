@@ -813,6 +813,9 @@ input.error .placeholder{
 	font: 30px/34px 'gothampro-bold', Arial, Helvetica, sans-serif;
 	color: #eed407;
 }
+.sect-intro2-konkurs{
+	display: none;
+}
 /*SECTION INTRO2 end*/
 
 /*SECTION DEVELOP*/
@@ -1683,11 +1686,20 @@ input.error .placeholder{
 		left: auto;
 		bottom: auto;
 		margin-left: 0;
+		margin-bottom: 20px;
 		display: block;
 		font-size: 26px;
 		line-height: 30px;
 		color: #eed407;
 		text-align: center;
+	}
+	.sect-intro2-konkurs{
+		font: 19vw/1.2 'gothampro-bold', Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.15);
+		display: block;
+		text-align: center;
+		position: relative;
+		z-index: -1;
 	}
 	/*SECTION INTRO2 end*/
 	/*SECTION DEVELOP*/
