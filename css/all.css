@@ -601,7 +601,7 @@ input.error .placeholder{
 .sect-title h2{
 	position: relative;
 	text-align: center;
-	padding: 0 0 12px;
+	padding: 0 0 13px;
 }
 .sect-title h2:before,
 .sect-title h2:after{
@@ -633,6 +633,7 @@ input.error .placeholder{
 	width: 100%;
 	border-collapse: collapse;
 	border-spacing: 0;
+	table-layout: fixed;
 }
 .tabs-list>li,
 .tabs-list>.r-tabs-tab,
@@ -651,10 +652,6 @@ input.error .placeholder{
 }
 .tabs-list>li:first-child{
 	border-left: none;
-	text-align: right;
-}
-.tabs-list>li:last-child{
-	text-align: left;
 }
 .tabs-list>li>a,
 .r-tabs-accordion-title>a{
@@ -662,10 +659,11 @@ input.error .placeholder{
 	color: #6c6c6c;
 	display: block;
 	background: #f4f4f4;
-	padding: 21px 38px 18px;
+	padding: 21px 4px 18px;
 	border: 3px solid transparent;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
+	white-space: nowrap;
 }
 .tabs-list>li>a:hover,
 .r-tabs-accordion-title>a:hover{
@@ -758,9 +756,6 @@ input.error .placeholder{
 .sect-develop-holder{ padding: 69px 0 40px; }
 .sect-develop-title{
 	padding: 0 0 26px;
-}
-.sect-develop-title h2{
-	padding: 0 0 12px;
 }
 .sect-develop-content{
 	font-size: 0;
@@ -858,14 +853,12 @@ input.error .placeholder{
 .sect-who{ background: #fff; }
 .sect-who-holder{ padding: 32px 0 12px; }
 .sect-who-title{ padding: 0 0 38px; }
-.sect-who-title h2{ padding: 0 0 15px; }
 /*SECTION WHO end*/
 
 /*SECTION BENEFITS*/
 .sect-benefits{ background: #fff; }
 .sect-benefits-holder{ padding: 23px 0; }
 .sect-benefits-title{ padding: 0 0 46px; }
-.sect-benefits-title h2{ padding: 0 0 15px; }
 .benefits-list{
 	font-size: 0;
 	letter-spacing: -4px;
@@ -913,14 +906,11 @@ input.error .placeholder{
 
 /*SECTION EARN*/
 .sect-earn-holder{
-	padding: 17px 0 0;
+	padding: 17px 0 30px;
 	overflow: hidden;
 }
 .sect-earn-title{
 	padding: 0 0 32px;
-}
-.sect-earn-title h2{
-	padding: 0 0 15px;
 }
 .sect-earn-text{
 	font-size: 16px;
@@ -933,11 +923,24 @@ input.error .placeholder{
 	margin: -71px -17px 0;
 	z-index: -1;
 }
+.sect-earn-btns{
+	text-align: center;
+	padding-top: 30px;
+}
+.sect-earn-btns .btn-default{
+	background: #0d93bb;
+	border-color: #0d93bb;
+}
+.sect-earn-btns .btn-default:hover{
+	background: #0080bb;
+	border-color: #0080bb;
+}
+
 /*SECTION EARN end*/
 
 /*SECTION ADVERTIZER*/
 .sect-advertizer{ background: #fff; }
-.sect-advertizer-holder{ padding: 66px 0 38px; }
+.sect-advertizer-holder{ padding: 50px 0 38px; }
 .sect-advertizer-title{ padding: 0 0 34px; }
 .sect-advertizer-content{
 	font-size: 0;
@@ -1424,7 +1427,7 @@ input.error .placeholder{
 	/*header options end*/
 	/*header holder end*/
 	.sect-title h2:before{
-		max-width: 50%;
+		max-width: 70%;
 		left: 50%;
 		margin-left: 0;
 		-webkit-transform: translateX(-50%);

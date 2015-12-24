@@ -246,7 +246,7 @@ function tabInit(){
 	var $tabs = $('.tabs');
 	$tabs.responsiveTabs({
 		rotate: false,
-		setHash: true,
+		setHash: false,
 		startCollapsed: false,
 		active: 0,
 		animation: 'slide'
