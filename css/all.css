@@ -639,7 +639,6 @@ input.error .placeholder{
 }
 .lang-list li{
 	white-space: nowrap;
-	overflow: hidden;
 	padding: 8px 0 0;
 }
 .lang-list li:first-child{
