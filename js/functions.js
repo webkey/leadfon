@@ -285,11 +285,12 @@ function slickSliderInit(){
 	mainSlider.slick({
 		fade: true,
 		speed: 500,
+		dots: true,
 		arrows: false,
 		swipe: false,
 		autoplay: true,
-		autoplaySpeed: 5000,
-		pauseOnHover: false
+		autoplaySpeed: 5000
+		//pauseOnHover: false
 	})
 }
 /*slick slider init end*/

@@ -787,6 +787,17 @@ input.error .placeholder{
 	margin: 0;
 	padding: 0;
 }
+.slick-dots li button{
+	background: #fff;
+	border-radius: 50%;
+	border: 2px solid #17a6cc;
+}
+.slick-dots li.slick-active button{
+	background: #17a6cc;
+}
+.slick-dots li button:before{
+	display: none !important;
+}
 .sect-intro{
 	position: relative;
 	background: #1196bc url(../img/bg-intro.jpg) 50% 50%;
