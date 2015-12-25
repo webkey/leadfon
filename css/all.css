@@ -791,6 +791,8 @@ input.error .placeholder{
 	background: #fff;
 	border-radius: 50%;
 	border: 2px solid #17a6cc;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
 }
 .slick-dots li.slick-active button{
 	background: #17a6cc;
