@@ -294,6 +294,25 @@ function slickSliderInit(){
 }
 /*slick slider init end*/
 
+/*drop language*/
+var closeDropLong = function () {
+	$('.lang').removeClass('lang-opened');
+};
+function dropLanguageInit() {
+	$('.lang-active a').on('click', function (e) {
+		e.preventDefault();
+		$(this).closest('.lang').toggleClass('lang-opened');
+		e.stopPropagation();
+	});
+	$('.lang-list').on('click', function (e) {
+		e.stopPropagation();
+	});
+	$(document).on('click', function () {
+		closeDropLong();
+	})
+}
+/*drop language end*/
+
 /** ready/load/resize document **/
 $(document).ready(function () {
 	placeholderInit();
@@ -301,6 +320,7 @@ $(document).ready(function () {
 	dropNavigation();
 	tabInit();
 	slickSliderInit();
+	dropLanguageInit();
 });
 $(window).load(function () {
 	equalHeightInit();
